@@ -19,3 +19,7 @@ git add README.md
 git add .
 git add --all
 git commit -m "Some commit messages"
+
+## Logs
+git log
+git diff
