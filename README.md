@@ -40,3 +40,10 @@ git diff HEAD~1
 git diff HEAD~3
 git diff 46ee645737acbca62e3b3b2231e0af5016285e03 README.md
 ```
+
+
+## History
+```
+git checkout 46ee645737acbca62e3b3b2231e0af5016285e03
+git checkout main
+```
