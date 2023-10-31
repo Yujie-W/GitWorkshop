@@ -42,8 +42,17 @@ git diff 46ee645737acbca62e3b3b2231e0af5016285e03 README.md
 ```
 
 
-## History
+## Pull out History
 ```
+git checkout 46ee645737acbca62e3b3b2231e0af5016285e03 README.md
 git checkout 46ee645737acbca62e3b3b2231e0af5016285e03
 git checkout main
+```
+
+
+## Ignore
+```
+mkdir data
+touch a.csv b.csv data/d.csv data/e.out
+nano .gitignore
 ```
