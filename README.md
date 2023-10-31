@@ -18,6 +18,7 @@ git init
 git checkout -b main
 git branch
 git status
+git status --ignored
 ```
 
 
@@ -55,4 +56,20 @@ git checkout main
 mkdir data
 touch a.csv b.csv data/d.csv data/e.out
 nano .gitignore
+```
+
+
+## Connect to Github
+```
+git remote add origin https://github.com/Yujie-W/GitWorkshop.git
+git remote -vl
+ssh-keygen -t ed25519 -C "Yujie-W@GitHub"
+ssh -T git@github.com
+```
+
+
+## Push and Pull
+```
+git push
+git pull
 ```
