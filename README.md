@@ -23,3 +23,4 @@ git commit -m "Some commit messages"
 ## Logs
 git log
 git diff
+git diff --staged
